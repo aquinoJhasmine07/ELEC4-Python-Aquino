@@ -105,4 +105,8 @@ while True:
 
     else:
         print("Invalid choice! Please select from 1-3.")
-   
+
+# A local variable is declared inside a function and can only be used within that function.
+# In my program, the variable grades inside enterGrades() is a local variable.
+# A global variable is declared outside all functions and can be accessed throughout the program.
+# In my program, studentGrades is a global variable because it is declared outside the functions.
